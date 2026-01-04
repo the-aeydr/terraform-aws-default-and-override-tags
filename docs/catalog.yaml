@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-default-and-override-tags
+  description: A pattern for specifying module tags that can be overrided, with default tags.
+  tags:
+    - terraform
+    - terraform
+  annotations:
+    displayName: Tags in Terraform, overriding defaults and module-level tags
+    github.com/project-slug: the-aeydr/terraform-aws-default-and-override-tags
+spec:
+  type: documentation
+  lifecycle: experimental
